@@ -1,20 +1,23 @@
 using System;
+using System.Collections.Generic;
 
-namespace suma
+namespace categoriasplatzi
 {
     class Program
     {
         static void Main(string[] args)
         {
-            float numero1;
-            float numero2;
-            float total;
-            Console.WriteLine("Digite el primer número:");
-            numero1 = float.Parse(Console.ReadLine());
-            Console.WriteLine("Digite el primer número:");
-            numero2 = float.Parse(Console.ReadLine());
-            total = numero1 + numero2;
-            Console.WriteLine(numero1 + " + " + numero2 + "=" + total);
+            var categorias =new List<string>{"Desarrollo e Ingenieria","Diseño y UX",
+             "Marketing","Negocios y emprendimiento","Producción Audiovisual",
+             "Crecimiento Profesional"};
+            Console.WriteLine("Platzi cuenta con cursos de:");
+            Console.WriteLine("============================");
+            Console.WriteLine("");
+            
+            foreach (string categoria in categorias)
+            {
+                Console.WriteLine(categoria);
+            }
 
         }
     }
