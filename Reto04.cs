@@ -21,7 +21,7 @@ namespace suma
             float total;
             Console.WriteLine("Digite el primer número:");
             numero1 = float.Parse(Console.ReadLine());
-            Console.WriteLine("Digite el primer número:");
+            Console.WriteLine("Digite el segundo número:");
             numero2 = float.Parse(Console.ReadLine());
             total = numero1 + numero2;
             Console.WriteLine(numero1 + " + " + numero2 + "=" + total);
