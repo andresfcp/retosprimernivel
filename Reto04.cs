@@ -24,7 +24,7 @@ namespace suma
             Console.WriteLine("Digite el segundo número:");
             numero2 = float.Parse(Console.ReadLine());
             total = numero1 + numero2;
-            Console.WriteLine(numero1 + " + " + numero2 + "=" + total);
+            Console.WriteLine(numero1 + " + " + numero2 + "=" + Math.Round(total,2));
 
         }
     }
