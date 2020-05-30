@@ -1,7 +1,7 @@
 <p align=center><img src="https://acortes.co/wp-content/uploads/2019/07/acortes-logo-sin-fondo-05.png" alt=""></p>
 
 # RETOS PRIMER NIVEL 
-Retos de programación para cualquier lenguaje - Segundo nivel: condicionales
+Retos de programación para cualquier lenguaje 
 
 ## - Reto 1
 Instrucciones: este es un clásico de clásicos, pero haremos un pequeño cambio. En lugar 
